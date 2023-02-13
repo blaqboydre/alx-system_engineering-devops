@@ -1,2 +1,2 @@
-#!/bin/bassh
-find . -type d ! -path . | wc -1
+#!/bin/bash
+find . -type d -not -name '.' | wc -l

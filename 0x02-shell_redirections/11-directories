@@ -1,0 +1,2 @@
+#!/bin/bassh
+find . -type d ! -path . | wc -1
